@@ -18,6 +18,7 @@ class RecursiveDivision < Generator
   def animation(grid)
     # sciana
     grid[0].length.times do |poz|
+      # testing mag
       @sprites << WallVert.new(90+(16*poz), 75, 1)
     end
     grid.each_with_index do |row, y|
